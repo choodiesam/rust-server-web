@@ -43,7 +43,7 @@ export default async function Home() {
     <main className="text-stone-800 flex flex-col gap-6">
       <div className="text-3xl">Rust herní server</div>
       <div className="flex flex-wrap gap-1 max-w-3xl">
-        <div>Pro přístup na herní server server je nutná registrace přes <Link href={process.env.REMOTE_WHITELIST_INVITE_LINK!} target="_blank" className="text-blue-600 underline underline-offset-2">odkaz</Link>, pomocí Steam účtu. Tím se zapíšete na whitelist, kdy po schválení administrátorem získáte přístup a budete se moc připojit.</div>
+        <div>Pro přístup na herní server je nutná registrace přes <Link href={process.env.REMOTE_WHITELIST_INVITE_LINK!} target="_blank" className="text-blue-600 underline underline-offset-2">odkaz</Link>, pomocí Steam účtu. Tím se zapíšete na whitelist, kdy po schválení administrátorem získáte přístup a budete se moc připojit.</div>
         <div>Server je vanilla a jsou nainstalovány jen pluginy pro správu a administraci <Link href={"https://github.com/choodiesam/umod-remote-whitelist"} target="_blank" className="text-blue-600 underline underline-offset-2 whitespace-nowrap">Remote Whitelist</Link>.</div>
       </div>
       <div className="flex flex-col gap-1 w-56">
